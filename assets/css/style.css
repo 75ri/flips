@@ -1,0 +1,40 @@
+#mint-button-container button {
+  margin: auto;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+  /* background-color: grey; */
+  /* cursor: not-allowed; */
+  /* pointer-events: none; */
+}
+
+.gambarKoin {
+  height: 150px;
+}
+body {
+  background-color: #808080;
+  /* opacity: 0.8; */
+  background-image: radial-gradient(#ffffff 1.8px, #ffd700 1.8px);
+  background-size: 36px 36px;
+
+  margin: 0;
+  color: #000000;
+  /* background: linear-gradient(
+    0deg,
+    rgba(93, 58, 16, 0.644) 0%,
+    rgb(221, 164, 39) 100%
+  ); */
+}
+
+@font-face {
+  font-family: "AdorableDoll";
+  src: url("/assets/font/AdorableDoll.ttf");
+}
+@font-face {
+  font-family: "AdorableDoll";
+  src: url("/assets/font/AdorableDoll.ttf");
+  font-weight: bold;
+}
+
+* {
+  font-family: "AdorableDoll", "Comic Sans", sans-serif;
+  box-sizing: border-box;
+}
